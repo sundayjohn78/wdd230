@@ -1,0 +1,14 @@
+/* larger.css */
+
+@media (min-width: 768px) {
+    /* Larger screens */
+    .main-container {
+        grid-template-columns: 1fr 1fr; /* Two column layout */
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Adjust width ratio for two cards */
+        gap: 20px;
+    }
+}
