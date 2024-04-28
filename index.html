@@ -3,16 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holy Grail</title>
-    <link rel="stylesheet" href="styles/holygrail.css">
+    <title>John Olorunferanmi Sunday - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development course assignment portal">
+    <meta name="author" content="John Olorunferanmi Sunday">
+    <!-- Refer to the course development standards if you need to review any of these <head> elements. -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
-        <h1 contenteditable>Header.com</h1>
-      </header>
-      <nav>Main Navigation</nav>
-      <main contenteditable>Main Content Area</main>
-      <aside contenteditable>Right Sidebar</aside>
-      <footer contenteditable>Footer Content — Header.com</footer>
+        <img src="profile.jpg" alt="Your Profile Image">
+        <span>John Olorunferanmi Sunday</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <!-- Learning activities will be populated throughout the course -->
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <!-- Information placeholders about the weather, number of visits to the page, etc. -->
+        </section>
+    </main>
+    <footer>
+        <p id="copyright">
+            &copy; <span id="currentYear"></span> John Olorunferanmi Sunday Nigeria
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
