@@ -1,0 +1,61 @@
+/* base.css */
+
+/* Your color schema and typography choices */
+body {
+    font-family: 'Roboto', sans-serif; /* Example font choice */
+    background-color: #f0f0f0; /* Example background color */
+    color: #333; /* Example text color */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333; /* Match the navigation bar color */
+    color: #fff; /* Example text color for footer */
+}
+
+/* Your CSS Grid layout */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout by default */
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #fff; /* Example card background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add background shadow */
+    transition: transform 0.3s ease; /* Add hover animation */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+/* Your CSS Flex for navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Vertical layout by default */
+    background-color: #333; /* Example background color for navigation */
+    align-items: center; /* Center navigation links horizontally */
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    color: #fff; /* Example text color for navigation links */
+    text-decoration: none;
+    text-align: center; /* Center the navigation links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline navigation links on hover */
+}
