@@ -16,7 +16,7 @@
         overflow: hidden;
         margin: 1rem 0;
     }
-    .cards span {
+    .cards h2 {
         background-color:#344E41;
         text-align: center;
         display: block;

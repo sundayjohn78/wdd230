@@ -8,13 +8,16 @@ body {
 footer {
     text-align: center;
     margin-top: 20px;
-    background-color: #344E41; /* Match the navigation bar color */
+    background-color: #3A5A40; /* Match the navigation bar color */
     color: #fff; /* Example text color for footer */
 }
-
+img {
+    width: 150px;
+    height: 200px;
+}
 /* Your CSS Grid layout */
 .cards {
-    margin: 1rem 2vm;
+    margin: 1rem;
 }
 .cards section {
     border: 1px solid black;
@@ -22,12 +25,13 @@ footer {
     overflow: hidden;
     margin: 1rem 0;
 }
-.cards span {
+.cards h2 {
     background-color:#344E41;
     text-align: center;
     display: block;
-    padding: .1rem 0;
-    color: #DAD7CD;
+    padding: .5rem 0;
+    color: white;
+    margin-top: 0%;
 }
 #info , ul {
     padding: 10px;
@@ -42,13 +46,13 @@ ul {
 
 /* Your CSS Flex for navigation */
 header {
-	background-color: #344E41;
+	background-color: #3A5A40;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #DAD7CD;
+    color: white;
 }
 
 header, main {
@@ -60,7 +64,7 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color:#344E41;
     margin-top: -20px;
 }
 nav ul {
@@ -77,5 +81,6 @@ nav a {
 nav a:hover {
 	text-decoration:overline;
     background-color: #A3B18A;
+    color: black;
 }
 
