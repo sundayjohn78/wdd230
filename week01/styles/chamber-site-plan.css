@@ -30,11 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   text-align: center;
 }
-hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
-}
+
 header {
   padding: 1em;
   text-align: center;
