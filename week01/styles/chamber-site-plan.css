@@ -4,7 +4,7 @@
   --secondary-color: #588157 ;
   --accent1-color: #3a5a40;
   --accent2-color: #344e41;
-  
+
   /* change the values below to your chosen font(s) */
   --heading-font: "Open Sans";
   --paragraph-font: "Sometype Mono", sans-serif;
@@ -70,4 +70,7 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+ul {
+  text-align: left;
 }
