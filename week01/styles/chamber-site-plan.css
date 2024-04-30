@@ -1,0 +1,73 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #a3b18a  ;
+  --secondary-color: #588157 ;
+  --accent1-color: #3a5a40;
+  --accent2-color: #344e41;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Open Sans";
+  --paragraph-font: "Sometype Mono", sans-serif;
+}
+body {
+  font-family: 'Sometype Mono', 'Open Sans', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+}
+
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--accent2-color);
+  background-color: var(--primary-color);
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--accent2-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
