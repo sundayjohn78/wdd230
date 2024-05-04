@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta property="og:title" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development">
     <meta property="og:description" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development course assignment portal" />
     <meta property="og:image" content="https://sundayjohn78.github.io/wdd230/images/IMG_1506.jpg">
@@ -22,12 +23,18 @@
     <header>
         <img src="images/IMG_1506.jpg" alt="Your Profile Image">
         <span>John Olorunferanmi Sunday</span>
+        <!-- Inside the <header> tag -->
+
     </header>
-    <nav>
-        <ul>
+    <button id="menu" class="menu-toggle">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+    </button>
+    <nav class="navigation">
+        <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Site Plan</a></li>
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
@@ -38,7 +45,7 @@
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>Week01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media-Query</a> | <a href="#">JS Pen</a></li>
-                    <li>Week02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Sundays-Johns/pen/XWQLwEx">Responsive "Hamburger" Menu</a> | <a href="#"></a></li>
+                    <li>Week02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Sundays-Johns/pen/XWQLwEx">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">BOM</a></li>
                     <li>Week03:</li>
                     <li>Week04:</li>
                     <li>Week05:</li>
@@ -62,7 +69,7 @@
         </p>
         <p id="lastModified"></p>
     </footer>
-    
+    <script src="scripts/navToogle.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>
 </html>
