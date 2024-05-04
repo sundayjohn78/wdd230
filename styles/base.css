@@ -65,27 +65,7 @@ header, main {
 h1 {
 	font-size: 2rem;
 }
-/*.menu-toggle {
-    cursor: pointer;
-    border: none;
-    background: none;
-    color: #344E41;
-    background-color: #344E41;
-    font-size: 1.5rem;
-}
 
-.menu-toggle i {
-    display: none;
-}
-
-.menu-toggle.open i.fa-bars {
-    display: none;
-}
-
-.menu-toggle.open i.fa-times {
-    display: inline;
-}
-*/
 .navigation {
     display: none;
 }
@@ -160,4 +140,4 @@ nav a:hover {
 	text-decoration:overline;
     background-color: #A3B18A;
     color: black;
-}
+} */
