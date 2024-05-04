@@ -20,7 +20,7 @@ img {
     margin: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 50px;
 }
 .cards section {
     border: 1px solid black;
