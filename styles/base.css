@@ -18,14 +18,14 @@ img {
 /* Your CSS Grid layout */
 .cards {
     margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .cards section {
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 .cards h2 {
     background-color:#344E41;
