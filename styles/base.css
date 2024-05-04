@@ -24,6 +24,8 @@ img {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .cards h2 {
     background-color:#344E41;
@@ -32,10 +34,6 @@ img {
     padding: .5rem 0;
     color: white;
     margin-top: 0%;
-}
-.card {
-     display: grid;
-     grid-template-columns: 1fr;
 }
 #info , ul {
     padding: 10px;
