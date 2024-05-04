@@ -94,7 +94,7 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 499px) {
+
 
 .menu {
     list-style: none;
@@ -112,7 +112,7 @@ h1 {
     font-size: 18px;
 
 }
-
+@media (min-width: 499px) {
     .menu-toggle {
         display: none;
     }
