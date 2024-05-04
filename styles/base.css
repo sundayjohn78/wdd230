@@ -19,7 +19,7 @@ img {
 .cards {
     margin: 1rem;
     display:grid;
-    display-template-columns: 1fr;
+    grid-template-columns: 1fr;
 }
 .cards section {
     border: 1px solid black;
