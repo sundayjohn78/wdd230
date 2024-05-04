@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta property="og:title" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development">
     <meta property="og:description" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development course assignment portal" />
     <meta property="og:image" content="https://sundayjohn78.github.io/wdd230/images/IMG_1506.jpg">
@@ -27,8 +26,14 @@
 
     </header>
     <button id="menu" class="menu-toggle">
-        <i class="fas fa-bars"></i>
-        <i class="fas fa-times"></i>
+        <!-- Hamburger Icon SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+        <!-- Close Icon SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="display: none;">
+            <path d="M19 6.41l-1.41-1.41L12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+        </svg>
     </button>
     <nav class="navigation">
         <ul class="menu">
@@ -62,6 +67,9 @@
                 </div>
             </section>
         </div>
+        <div id="mode">
+            🌚
+        </div>
     </main>
     <footer>
         <p id="copyright">
@@ -71,5 +79,6 @@
     </footer>
     <script src="scripts/navToogle.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 </html>
