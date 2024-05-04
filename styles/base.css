@@ -73,6 +73,7 @@ h1 {
     background-color: #344E41;
     font-size: 1.5rem;
 }
+@media (min-width: 499px) {
 
 .menu-toggle i {
     display: none;
