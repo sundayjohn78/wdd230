@@ -27,7 +27,6 @@ img {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
-    grid-column: 1/2;
 }
 .cards h2 {
     background-color:#344E41;
