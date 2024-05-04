@@ -85,7 +85,7 @@ h1 {
 .menu-toggle.open i.fa-times {
     display: inline;
 }
-
+*/
 .navigation {
     display: none;
 }
@@ -95,7 +95,7 @@ h1 {
     flex-direction: column;
 }
 
-*/
+
 .menu {
     list-style: none;
     padding: 0;
