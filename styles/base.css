@@ -65,7 +65,7 @@ header, main {
 h1 {
 	font-size: 2rem;
 }
-.menu-toggle {
+/*.menu-toggle {
     cursor: pointer;
     border: none;
     background: none;
@@ -95,7 +95,7 @@ h1 {
     flex-direction: column;
 }
 
-
+*/
 .menu {
     list-style: none;
     padding: 0;
