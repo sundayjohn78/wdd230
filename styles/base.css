@@ -18,7 +18,7 @@ img {
 /* Your CSS Grid layout */
 .cards {
     margin: 1rem;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
 }
 .cards section {
