@@ -18,8 +18,6 @@ img {
 /* Your CSS Grid layout */
 .cards {
     margin: 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 .cards section {
     border: 1px solid black;
@@ -34,6 +32,10 @@ img {
     padding: .5rem 0;
     color: white;
     margin-top: 0%;
+}
+.card {
+     display: grid;
+     grid-template-columns: 1fr;
 }
 #info , ul {
     padding: 10px;
