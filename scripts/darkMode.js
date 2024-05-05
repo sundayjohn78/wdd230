@@ -3,7 +3,7 @@ const main = document.querySelector("main");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🌚")) {
-		main.style.background = "#000";
+		main.style.backgroundColor = "#000";
 		main.style.color = "#fff";
 		modeButton.textContent = "🔆";
 	} else {
