@@ -1,12 +1,22 @@
 @media screen and (min-width: 500px) {
     /* Larger screens */
-     .navigation {
-		display: block;
-	}
+    .navigation {
+        display: block;
+    }
+    .navigation.active {
+        display: block;
+    }
+    #menu
+     {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
     nav {
         background-color:#344E41;
         margin-top: -20px;
-    }
     }
     nav a {
         display: block;
@@ -20,7 +30,7 @@
         background-color: #A3B18A;
         color: black;
     }
-	nav .menu li {
+	.menu li {
 		flex: 1 1 100%;
         padding: 1rem;
 	}

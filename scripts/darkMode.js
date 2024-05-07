@@ -1,19 +1,22 @@
 const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+const body = document.querySelector("body");
+const header = document.querySelector("header");
+
+
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🌚")) {
-<<<<<<< HEAD
-		main.style.backgroundColor = "#000";
-		main.style.color = "#fff";
-=======
-		body.style.background = "#000";
+		body.style.backgroundColor = "#070f0a";
 		body.style.color = "#fff";
->>>>>>> a29b7d6c24140fed00fec42acdc96c0b209a3cca
+		header.style.backgroundColor = "#070f0a";
+		header.style.color = "#fff";
+		
 		modeButton.textContent = "🔆";
 	} else {
-		main.style.background = "#eee";
-		main.style.color = "#000";
+		body.style.backgroundColor = " #f0f0f0";
+		body.style.color = "#333";
+		header.style.backgroundColor = "#3A5A40";
+		header.style.color = "#fff";
 		modeButton.textContent = "🌚";
 	}
 });
