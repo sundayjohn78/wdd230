@@ -45,6 +45,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+              <source srcset="images/aba-nigeria-temple-lds-small.webp" media="(max-width: 400px)">
+              <img src="images/aba-nigeria-temple-lds-medium-wallpaper.webp" alt="aba-nigeria-temple-lds" width="960">
+            </picture>
+            <div class="herolabel">
+                <p>Aba Nigeria Temple</p>
+            </div>
+          </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="cards">
             <section class="card">
@@ -56,7 +65,6 @@
                     <li>Week04:</li>
                     <li>Week05:</li>
                     <li>Week06:</li>
-
                 </ul>
             </section>
             <section class="card">
@@ -64,13 +72,14 @@
                 <div id="info">
                     <p>Location</p>
                     <p>Temperature/Weather</p>
-                    <p>Page Visits: -</p>
+                    <p><span class="label">Page Visits: </span><span class="visits"></span></p>
                 </div>
             </section>
         </div>
         <div id="mode">
             🌚
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.7240890040175!2d7.353935874038665!3d5.1480444376191405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10429986acee733b%3A0xe939f64e8530fc7f!2sAba%20Nigeria%20Temple!5e0!3m2!1sen!2sng!4v1715473480882!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p id="copyright">
@@ -81,5 +90,7 @@
     <script src="scripts/navToogle.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/noVisits.js"></script>
+
 </body>
 </html>

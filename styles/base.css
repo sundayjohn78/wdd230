@@ -110,3 +110,34 @@ nav a:hover {
 	cursor: pointer;
 	font-size: 2rem;
 }
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+  .herolabel {
+	position: absolute;
+    top: 30px;
+    right: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 0.5rem;
+	font-family:"Great Vibes", serif;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height:auto;
+}
+iframe {
+    width: 100%;
+}
