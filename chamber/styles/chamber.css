@@ -1,0 +1,208 @@
+/* base.css */
+body {
+    font-family: 'Sometype Mono', 'Open Sans', sans-serif;
+    color: #333; /* Example text color */
+    background-image: url('../images/chamberbg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* Example text color for footer */
+}
+/* Your CSS Grid layout */
+.cards, .cards2 {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.cards section, .cards2 section {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.cards h2, .cards2 h2 {
+    background-color:#344E41;
+    text-align: center;
+    display: block;
+    padding: .5rem 0;
+    color: white;
+    margin-top: 0%;
+}
+#info , ul {
+    padding: 10px;
+}
+
+ul {
+    margin-left: 15px;
+    list-style-type: none;
+}
+#info {
+    text-align: center;
+}
+.info {
+    background-color:#3A5A40;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;}
+/* Your CSS Flex for navigation */
+header {
+    text-align: center;
+    margin: 80px 80px;
+    
+}
+
+.header{
+    background-color:#3A5A40;
+    color: #d8f3dc;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+main {
+	margin: 20px auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.box a:hover,nav a:hover {
+    text-decoration:overline;
+    background-color: #A3B18A;
+    color: black;
+}
+#menu {
+    display: block;
+    background-color: #344E41;
+}
+.navigation.active {
+    display: block;
+    background-color: #344E41;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+.menu-toggle {
+    display: none;
+}
+.navigation {
+    display: none;
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    height:auto;
+}
+.join {
+    background-color:#3A5A40;
+    color: #d8f3dc;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.box {
+    text-align: center;
+    margin-top: 20px;
+}
+#heroimg {
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 500px) {
+    /* Larger screens */
+    .navigation {
+        display: block;
+    }
+    .navigation.active {
+        display: block;
+    }
+    #menu
+     {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+    nav {
+        background-color:#344E41;
+        margin-top: -20px;
+    }
+    nav a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration:overline;
+        background-color: #A3B18A;
+        color: black;
+    }
+	.menu li {
+		flex: 1 1 100%;
+        padding: 1rem;
+	}
+    .cards {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Adjust width ratio for two cards */
+        gap: 20px;
+    }
+    .cards2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Adjust width ratio for two cards */
+        gap: 20px;
+    }
+    .card {
+        border-radius: 25px;
+        overflow: hidden;
+        margin: 1rem 0;
+    }
+    .cards h2, .cards2 h2{
+        background-color:#344E41;
+        text-align: center;
+        display: block;
+    }
+    .cards section, .cards2 section {
+        box-shadow: 1px 1px 10px black;
+    }
+    main {
+        margin: 0 50px;
+    }
+}
