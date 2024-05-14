@@ -10,58 +10,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sometype+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development">
-    <meta property="og:description" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development course assignment portal" />
+    <meta property="og:description" content="John Olorunferanmi Sunday - WDD 230 - Web Frontend Development course assignment portal">
     <meta property="og:image" content="https://sundayjohn78.github.io/wdd230/images/IMG_1506.jpg">
     <meta property="og:url" content="https://sundayjohn78.github.io/wdd230/index.html">
 </head>
 <body>
-    <header>
-        <span>John Olorunferanmi Sunday</span>
-    </header>
-    <button id="menu" class="menu-toggle">
-        <!-- Hamburger Icon SVG -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-        </svg>
-        <!-- Close Icon SVG -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="display: none;">
-            <path d="M19 6.41l-1.41-1.41L12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
-        </svg>
-    </button>
-    <nav class="navigation">
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>Chamber Site</h1>
-        <div class="cards">
-            <section class="card">
-                <h2>Welcome</h2>
-            </section>
-            <section class="card">
-                <h2>Informations</h2>
-                <div id="info">
-                    <p>Location</p>
-                    <p>Temperature/Weather</p>
-                    <p>Page Visits: -</p>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <p id="copyright">
-            &copy; <span id="currentYear"></span> John Olorunferanmi Sunday Nigeria
-        </p>
-        <p id="lastModified"></p>
-    </footer>
-    <script src="scripts/navToogle.js"></script>
-    <script src="scripts/getDates.js"></script>
+        <button id="menu" class="menu-toggle">
+            <!-- Hamburger Icon SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <!-- Close Icon SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="display: none;">
+                <path d="M19 6.41l-1.41-1.41L12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+            </svg>
+        </button>
+        <nav class="navigation">
+            <ul class="menu">
+                <li><a href="#"><img src="images/logo.png" alt="companylogoultra"></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </nav>
+        <header>
+                <h1 class="header">Discovery Site</h1>
+        </header>
+        <main class="main-grid">
+            <div class="sidebar">
+                <h2>Demographics</h2>
+                <!-- Demographics content goes here -->
+            
+                <h2>Statistical Data</h2>
+                <div id="visit-message"></div>
+            
+                <h2>Events</h2>
+                <!-- Events content goes here -->
+            
+                <h2>Attractions</h2>
+                <!-- Attractions content goes here -->
+            
+                <h2>Calendar</h2>
+                <!-- Calendar content goes here -->
+            </div>
+            <div class="main-content">
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 1">
+                    <figcaption>Caption for Image 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 2">
+                    <figcaption>Caption for Image 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 1">
+                    <figcaption>Caption for Image 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 2">
+                    <figcaption>Caption for Image 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 1">
+                    <figcaption>Caption for Image 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/400x600/" loading="lazy" width="400" height="600" alt="Image 2">
+                    <figcaption>Caption for Image 2</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            <p id="copyright">
+                &copy; <span id="currentYear"></span> John Olorunferanmi Sunday Nigeria
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/navToogle.js"></script>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/statsData.js"></script>
 </body>
 </html>
