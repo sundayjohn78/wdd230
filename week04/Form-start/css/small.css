@@ -48,8 +48,39 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
+/*------------ FORM STYLING-----------------*/
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+.wf1 legend {
+    color: #445ba9;
+    padding:  0 .5rem;
+}
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+}
+.wf1 div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+}
+.wf1 input[type="text"]
+.wf1 input[type="tel"] 
+.wf1 input[type="email"] 
+.wf1 input[type=""]
+.wf1 input[type="text"] 
+.wf1 input[type="text"] 
+.wf1 input[type="text"] 
 
-
+ {
+    background-color: deeppink ;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
