@@ -1,4 +1,8 @@
-
+:root {
+    --primary-color: #3A5A40;
+    --secondary-color: #9c2c13;
+    --tetiary-color: red;
+}
 .wf1 fieldset {
     margin: 2rem 0;
     border: 1px solid #ddd;
@@ -10,19 +14,19 @@ main {
     min-height: 20rem;
 }
 .wf1 legend {
-    color: #3A5A40;
+    color: var(--primary-color);
     padding:  0 .5rem;
     font-size: larger;
 }
 .wf1 label {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--secondary-color);
     font-size: .9rem;
 }
 .wf1 div {
     padding-top: 1rem;
-    color: #445ba9;
+    color: var(--primary-color);
     font-size: .9rem;
 }
 .wf1 input[type="text"],
@@ -41,7 +45,7 @@ main {
 } 
 .wf1 input[type="submit"] {
     border: none;
-    background-color: #3A5A40;
+    background-color: var(--primary-color);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
@@ -51,8 +55,8 @@ main {
     box-shadow: 1px 1px 4px #999;
 }
 .wf1 input:required {
-    border-left: solid 5px red;
+    border-left: solid 5px var(--tetiary-color);
 }
 .wf1 input:required:valid {
-    border-left: solid 5px #3A5A40;
+    border-left: solid 5px var(--primary-color);
 }
