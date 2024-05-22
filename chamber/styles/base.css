@@ -179,6 +179,84 @@ figcaption {
     font-style: italic;
     margin-top: 5px;
 }
+/*---------design for join----------*/
+.wf1 textarea {
+    width: 100%;
+    height: 200px;
+}
+.wf1 textarea:focus {
+    border-left: solid 8px #3A5A40;
+}
+.form {
+    padding: 0 10%;
+    min-height: 20rem;
+}
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 10%;
+}
+.wf1 legend {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-shadow: 0 0 5px  #000;
+    padding:  0 .5rem;
+}
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-shadow: 0 0 5px  #000;
+}
+.wf1 div {
+    padding-top: 1rem;
+    color: #3A5A40;
+    font-size: .9rem;
+}
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"], 
+.wf1 input[type="url"],
+.wf1 input[type="date"], 
+.wf1 input[type="number"] 
+
+ {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] 
+{
+    margin-right: 6px;
+}
+.wf1 input[type="submit"] {
+    border: none;
+    background-color: #3A5A40;
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+.wf1 input:required {
+    border-left: solid 8px red;
+}
+.wf1 input:required:valid {
+    border-left: solid 8px #3A5A40;
+}
 @media screen and (min-width: 500px) {
     /* Larger screens */
     .navigation {
