@@ -1,0 +1,46 @@
+{
+    "familyName": "Sunday",
+    "dateMovedin" : "nil",
+    "numberOfrecords" : "7",
+    "visitedBybishopric" : true,
+    "members" : [
+       {
+        "name" : "Sunday Alexander",
+        "gender" : "male",
+        "birthDate" : "nil"
+       },
+       {
+        "name" : "Sunday Victoria",
+        "gender" : "female",
+        "birthDate" : "nil"
+       },
+       {
+        "name" : "Sunday Adam",
+        "gender" : "male",
+        "birthDate" : "nil"
+       },
+       {
+        "name" : "Sunday Lucie",
+        "gender" : "female",
+        "birthDate" : "nil"
+       },
+       {
+        "name" : "Sunday Samuel",
+        "gender" : "male",
+        "birthDate" : "nil"
+       },
+       {
+        "name" : "Sunday John",
+        "gender" : "male",
+        "birthDate" : "30th-October-2004"
+       },
+       {
+        "name" : "Sunday Hannah",
+        "gender" : "female",
+        "birthDate" : "nil"
+       }
+    ]
+    
+
+
+}
