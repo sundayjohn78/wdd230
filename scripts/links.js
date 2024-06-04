@@ -10,6 +10,7 @@ const displayLinks = (weeks) => {
     weeks.forEach((week) => {
 
         let card = document.createElement('section');
+
         let fullName = document.createElement('h2'); // Correct element is 'h2'
         let list = document.createElement('ul');
         let innerList = document.createElement('li');
@@ -19,9 +20,11 @@ const displayLinks = (weeks) => {
         fullName.textContent = `Learning Activities`; // Correct properties are 'name' and 'lastname'
         innerList.textContent = `${week.week}`;
         link.textContent =`${week.title}`;
-
-        list.appendChild('innerList');
-        innerList.appendChild('link')
+        list.appendChild(innerList);
+        card.className = "card";
+        card.appendChild(list);
+        card.appendChild(fullName);
+        innerList.appendChild(link)
     });
 }
 getLinks(linksURL);
