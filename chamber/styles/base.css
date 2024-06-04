@@ -276,6 +276,7 @@ figcaption {
 
 .grid section {
     background: #3A5A40;
+    color: #fff;
     padding: 1rem;
     border: 1px solid #ccc;
     text-align: center;
@@ -298,6 +299,7 @@ figcaption {
     border: 1px solid #ccc;
     margin-bottom: 1rem;
     background-color:#3A5A40;
+    color: #fff;
 }
 
 .list img {
