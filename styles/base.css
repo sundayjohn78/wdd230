@@ -141,3 +141,14 @@ nav a:hover {
 iframe {
     width: 100%;
 }
+#weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #weather-icon {
+    width: 50px; /* adjust the size as needed */
+    height: 50px;
+    margin-right: 4px; /* add some space between the icon and the text */
+  }

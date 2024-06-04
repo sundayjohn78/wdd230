@@ -1,30 +1,49 @@
-const baseURL = "https://sundayjohn78.github.io/wdd230/";
 const linksURL = "https://sundayjohn78.github.io/wdd230/data/links.json";
 
 async function getLinks(linksURL) {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    displayLinks(data.weeks);
-  }
-const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
-
-        let card = document.createElement('section');
-
-        let fullName = document.createElement('h2'); // Correct element is 'h2'
-        let list = document.createElement('ul');
-        let innerList = document.createElement('li');
-        let link = document.createElement('a')
-        
-        // Build the h2 content out to show the prophet's full name
-        fullName.textContent = `Learning Activities`; // Correct properties are 'name' and 'lastname'
-        innerList.textContent = `${week.week}`;
-        link.textContent =`${week.title}`;
-        list.appendChild(innerList);
-        card.className = "card";
-        card.appendChild(list);
-        card.appendChild(fullName);
-        innerList.appendChild(link)
-    });
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        displayLinks(data.weeks);
+    } catch (error) {
+        console.error('Error fetching links:', error);
+    }
 }
+
+const displayLinks = (weeks) => {
+    let learningActivitiesSection = document.createElement('section');
+    learningActivitiesSection.className = "card";
+
+    let heading = document.createElement('h2');
+    heading.textContent = "Learning Activities";
+
+    let list = document.createElement('ul');
+
+    weeks.forEach((week) => {
+        let listItem = document.createElement('li');
+        listItem.textContent = `${week.week}: `;
+
+        week.links.forEach((link, index) => {
+            let a = document.createElement('a');
+            a.href = link.url;
+            a.textContent = link.title;
+
+            listItem.appendChild(a);
+
+            if (index < week.links.length - 1) {
+                let separator = document.createTextNode(' | ');
+                listItem.appendChild(separator);
+            }
+        });
+
+        list.appendChild(listItem);
+    });
+
+    learningActivitiesSection.appendChild(heading);
+    learningActivitiesSection.appendChild(list);
+
+    let cardsContainer = document.querySelector('.cards');
+    cardsContainer.insertBefore(learningActivitiesSection, cardsContainer.firstChild);
+}
+
 getLinks(linksURL);
