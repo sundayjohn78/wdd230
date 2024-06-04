@@ -257,15 +257,16 @@ figcaption {
 .wf1 input:required:valid {
     border-left: solid 8px #3A5A40;
 }
-.menu {
+.menud {
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.menu button {
+.menud button {
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
     cursor: pointer;
+    text-align: center;
 }
 
 .grid {
