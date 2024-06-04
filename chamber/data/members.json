@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Alpha Enterprises",
+        "address": "123 Main St, Anytown, USA",
+        "phone": "555-1234",
+        "website": "http://www.alpha.com",
+        "image": "alpha.png",
+        "membership_level": "Gold",
+        "additional_info": "Leading provider of business solutions."
+    },
+    {
+        "name": "Beta Industries",
+        "address": "456 Market St, Sometown, USA",
+        "phone": "555-5678",
+        "website": "http://www.beta.com",
+        "image": "beta.png",
+        "membership_level": "Silver",
+        "additional_info": "Innovative manufacturing services."
+    },
+    {
+        "name": "Gamma Tech",
+        "address": "789 Broadway, Othertown, USA",
+        "phone": "555-8765",
+        "website": "http://www.gamma.com",
+        "image": "gamma.png",
+        "membership_level": "Bronze",
+        "additional_info": "Cutting-edge technology solutions."
+    },
+    {
+        "name": "Delta Corp",
+        "address": "321 Elm St, Anytown, USA",
+        "phone": "555-4321",
+        "website": "http://www.delta.com",
+        "image": "delta.png",
+        "membership_level": "Gold",
+        "additional_info": "Global logistics and supply chain management."
+    },
+    {
+        "name": "Epsilon Services",
+        "address": "654 Cedar St, Sometown, USA",
+        "phone": "555-6789",
+        "website": "http://www.epsilon.com",
+        "image": "epsilon.png",
+        "membership_level": "Silver",
+        "additional_info": "Premium customer service outsourcing."
+    },
+    {
+        "name": "Zeta Holdings",
+        "address": "987 Oak St, Othertown, USA",
+        "phone": "555-9876",
+        "website": "http://www.zeta.com",
+        "image": "zeta.png",
+        "membership_level": "Bronze",
+        "additional_info": "Investment and financial planning."
+    },
+    {
+        "name": "Eta Solutions",
+        "address": "111 Maple St, Anytown, USA",
+        "phone": "555-1111",
+        "website": "http://www.eta.com",
+        "image": "eta.png",
+        "membership_level": "Gold",
+        "additional_info": "Comprehensive IT services."
+    },
+    {
+        "name": "Theta Enterprises",
+        "address": "222 Pine St, Sometown, USA",
+        "phone": "555-2222",
+        "website": "http://www.theta.com",
+        "image": "theta.png",
+        "membership_level": "Silver",
+        "additional_info": "Business consulting and strategy."
+    },
+    {
+        "name": "Iota Tech",
+        "address": "333 Birch St, Othertown, USA",
+        "phone": "555-3333",
+        "website": "http://www.iota.com",
+        "image": "iota.png",
+        "membership_level": "Bronze",
+        "additional_info": "Innovative software development."
+    },
+    {
+        "name": "Kappa Innovations",
+        "address": "444 Spruce St, Anytown, USA",
+        "phone": "555-4444",
+        "website": "http://www.kappa.com",
+        "image": "kappa.png",
+        "membership_level": "Gold",
+        "additional_info": "R&D for new technologies."
+    }
+]
