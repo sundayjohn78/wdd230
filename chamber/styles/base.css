@@ -80,6 +80,9 @@ nav a {
     padding: 1rem;
     text-decoration: none;
 }
+a {
+    color: #fff;
+}
 .box a:hover,nav a:hover {
     text-decoration:overline;
     background-color: #A3B18A;
