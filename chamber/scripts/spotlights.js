@@ -1,7 +1,7 @@
 async function loadSpotlightMembers() {
     try {
         console.log('Fetching members.json...');
-        const response = await fetch('../data/members.json'); // Adjust path according to your structure
+        const response = await fetch('data/members.json'); // Adjust path according to your structure
         
         if (!response.ok) {
             throw new Error('Failed to fetch members data');
