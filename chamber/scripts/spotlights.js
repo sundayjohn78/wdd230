@@ -1,7 +1,7 @@
 async function loadSpotlightMembers() {
     try {
         console.log('Fetching members.json...');
-        const response = await fetch('data/members.json'); // Adjust path according to your structure
+        const response = await fetch('../data/members.json'); // Adjust path according to your structure
         
         if (!response.ok) {
             throw new Error('Failed to fetch members data');
@@ -29,25 +29,28 @@ async function loadSpotlightMembers() {
         const selectedMembers = shuffledMembers.slice(0, 3);
         console.log('Selected members:', selectedMembers);
 
-        const spotlightsDiv = document.getElementById('spotlights');
+        const spotlightsDiv = document.querySelector('.cards2');
         console.log('Spotlights div:', spotlightsDiv);
 
         if (spotlightsDiv) {
             spotlightsDiv.innerHTML = ''; // Clear any existing content
 
             selectedMembers.forEach(member => {
-                const memberDiv = document.createElement('div');
-                memberDiv.className = 'member';
+                const memberSection = document.createElement('section');
+                memberSection.className = 'card';
 
-                memberDiv.innerHTML = `
-                    <img src="../images/${member.image}" alt="${member.name}">
-                    <h3>${member.name}</h3>
-                    <p>${member.address}</p>
-                    <p>${member.phone}</p>
-                    <a href="${member.website}" target="_blank">Visit Website</a>
+                memberSection.innerHTML = `
+                    <h2>${member.name}</h2>
+                    <div class="infodiv">
+                        <img src="../images/${member.image}" alt="${member.name}">
+                        <p class="info">${member.address}</p>
+                        <p class="info">${member.phone}</p>
+                        <a href="${member.website}" target="_blank">Visit Website</a>
+                        <p class="info">${member.additional_info}</p>
+                    </div>
                 `;
 
-                spotlightsDiv.appendChild(memberDiv);
+                spotlightsDiv.appendChild(memberSection);
             });
         } else {
             console.error('Spotlights div not found');
