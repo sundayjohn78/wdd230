@@ -177,12 +177,7 @@ img {
 .lazy-image.loaded {
     opacity: 1;
 }
-#current-temp p, #forecast p,figcaption {
-    text-align: center;
-    background-color:#3A5A40;
-    color: #fff;
-    margin-top: 5px;
-}
+
 /*---------design for join----------*/
 .wf1 textarea {
     width: 100%;
@@ -394,7 +389,9 @@ img {
   figcaption {
     color: #fff;
     font-weight: bolder;
-    text-shadow: 0 0 5px  #000;
+    text-align: center;
+    background-color:#3A5A40;
+    margin-top: 5px;
   }
   #weather-icon {
     width: 50px; /* adjust the size as needed */
@@ -407,11 +404,11 @@ img {
     width: 100%;
 }
 
-.forecast-day {
+#current-temp, .forecast-day {
     text-align: center;
     color: #fff;
     font-weight: bolder;
-    text-shadow: 0 0 5px  #000;
+    background-color: #3A5A40;
 }
 
 .forecast-day img {
