@@ -403,6 +403,11 @@ img {
     justify-content: space-around;
     width: 100%;
 }
+.infodiv a {
+    color: #fff;
+    font-weight: bolder;
+    background-color:#3A5A40;
+}
 
 #current-temp, .forecast-day {
     text-align: center;
