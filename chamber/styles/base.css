@@ -417,6 +417,34 @@ figcaption {
     width: 50px;
     height: 50px;
 }
+.banner {
+    background-color: #ffd700;
+    padding: 10px;
+    text-align: center;
+    display: none; /* Hidden by default */
+    position: relative;
+}
+
+.banner .close-banner {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.member {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
 @media (max-width: 500px) {
     .main-grid {
         grid-template-columns: 1fr; /* Change to single column layout */
