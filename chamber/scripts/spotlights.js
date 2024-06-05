@@ -2,7 +2,7 @@ async function loadSpotlightMembers() {
     const response = await fetch('data/members.json');
     const data = await response.json();
     const members = data.members;
-    const spotlightMembers = members.filter(member => member.membershipLevel === 'Gold' || member.membershipLevel === 'Silver');
+    const spotlightMembers = members.filter(member => member.membership_level === 'Gold' || member.membership_level === 'Silver');
 
     // Shuffle the array and get the first 3 members
     const shuffled = spotlightMembers.sort(() => 0.5 - Math.random());
