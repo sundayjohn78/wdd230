@@ -42,7 +42,7 @@ async function loadSpotlightMembers() {
                 memberSection.innerHTML = `
                     <h2>${member.name}</h2>
                     <div class="infodiv">
-                        <img src="../images/${member.image}" alt="${member.name}">
+                        <img src="images/${member.image}" alt="${member.name}">
                         <p class="info">${member.address}</p>
                         <p class="info">${member.phone}</p>
                         <a href="${member.website}" target="_blank">Visit Website</a>
