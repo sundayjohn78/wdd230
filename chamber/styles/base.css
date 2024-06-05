@@ -177,9 +177,10 @@ img {
 .lazy-image.loaded {
     opacity: 1;
 }
-figcaption {
+#current-temp p, #forecast p,figcaption {
     text-align: center;
-    font-style: italic;
+    background-color:#3A5A40;
+    color: #fff;
     margin-top: 5px;
 }
 /*---------design for join----------*/
