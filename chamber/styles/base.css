@@ -382,6 +382,41 @@ figcaption {
         border-radius: 5px;
     }
 }
+#weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 5px  #000;
+  }
+  figcaption {
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 5px  #000;
+  }
+  #weather-icon {
+    width: 50px; /* adjust the size as needed */
+    height: 50px;
+    margin-right: 4px; /* add some space between the icon and the text */
+  }
+  #forecast {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.forecast-day {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 5px  #000;
+}
+
+.forecast-day img {
+    width: 50px;
+    height: 50px;
+}
 @media (max-width: 500px) {
     .main-grid {
         grid-template-columns: 1fr; /* Change to single column layout */
